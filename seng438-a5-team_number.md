@@ -5,7 +5,7 @@
 | Group \#:       |   |
 |-----------------|---|
 | Student Names:  |   |
-|                 |   |
+|  Brenek Spademan  | 30060822 |
 |                 |   |
 |                 |   |
 
@@ -30,3 +30,5 @@
 # Difficulties encountered, challenges overcome, and lessons learned
 
 # Comments/feedback on the lab itself
+
+The lab was enjoyable and further enhanced our understanding of reliability assessment. 
