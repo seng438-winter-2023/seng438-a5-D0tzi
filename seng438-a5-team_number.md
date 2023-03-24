@@ -25,6 +25,8 @@
 
 # How the team work/effort was divided and managed
 
+For this lab, the group decided to all work together on all segments. 
+
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
