@@ -18,6 +18,8 @@
 
 <img width="1197" alt="image" src="https://user-images.githubusercontent.com/98235387/228976814-97ec68a5-7e85-4062-9cb4-bff0c5900883.png">
 
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/98235387/228977200-548cda7d-4a66-4d2d-a62f-e98a57b3d99d.png">
+
 
 # Assessment Using Reliability Demonstration Chart 
 
