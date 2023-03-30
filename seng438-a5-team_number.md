@@ -22,10 +22,10 @@
 <img width="1200" alt="image" src="https://user-images.githubusercontent.com/98235387/228978355-23db8da4-0bea-4161-a1a8-4b74b56e80cb.png">
 
 <h3>Result of model comparison (selecting top two models):</h3>
-<h3>Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)</h3>
-<h3>Plots for failure rate and reliability of the SUT for the test data provided</h3>
-<h3>A discussion on decision making given a target failure rate</h3>
-<h3>A discussion on the advantages and disadvantages of reliability growth analysis</h3>
+<h3>Result of range analysis (an explanation of which part of data is good for proceeding with the analysis):</h3>
+<h3>Plots for failure rate and reliability of the SUT for the test data provided:</h3>
+<h3>A discussion on decision making given a target failure rate:</h3>
+<h3>A discussion on the advantages and disadvantages of reliability growth analysis:</h3>
 
 
 # Assessment Using Reliability Demonstration Chart 
