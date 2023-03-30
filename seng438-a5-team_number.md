@@ -29,7 +29,9 @@
 
 
 # Assessment Using Reliability Demonstration Chart 
-
+<h3>3 plots for MTTFmin, twice and half of it for your test data</h3>
+<h3>Explain your evaluation and justification of how you decide the MTTFmin</h3>
+<h3>A discussion on the advantages and disadvantages of RDC</h3>
 # 
 
 # Comparison of Results
