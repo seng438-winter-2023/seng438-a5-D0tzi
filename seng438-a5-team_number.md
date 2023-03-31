@@ -10,7 +10,16 @@
 |Jack Rovere                |30085670     |
 
 # Introduction
+In assignment 5 we aim to familiarize ourselves with reliability assessment using the reliability assessment techniques of reliability growth testing and developing reliability demonstration charts. This testing will be done using tools such as C-SFRAT and RDC-11. Similar to assignment 4, no one in the group has any previous experience with either of the testing techniques/methods and their associated tools. 
 
+This assignment has the following objectives:
+ * Introduce students to reliability growth testing and reliability demonstration charts. 
+ * Give students practice with the reliability assessment tools C-SFRAT and RDC-11
+ * Learn to measure the failure rate, MTTF, and overall reliability of the system under test through data analysis. 
+
+The group began the reliability growth testing by first familiarizing our-selves with C-SFRAT and gaining an understanding of how it worked. Once we were familiar with C-SFRAT we used the tool to display time-between-failures, failure intensity and reliability graphs. Once the group moved on to part 2, we used RDC-11 to analyze whether the target failure rate and MTTF had been met. 
+
+Below we go into further detail about our process and findings:
 # 
 
 # Assessment Using Reliability Growth Testing 
