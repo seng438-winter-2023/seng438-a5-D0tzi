@@ -56,7 +56,7 @@ The provided default risk values were used, and are as follows:
 - Developer's Risk (α) = 0.1  
 - User's Risk (β) = 0.1  
 
-The failure data used had to be modified as follows to due to the format the selected failure data was in. This was done by assuming that the failure count was uniformly distributed over the interval it occured in. For example, data where Failure Number (T), Count of Failures (FC), and total time for T to occur (E) are as follows 
+The failure data used had to be modified as follows to due to the format the selected failure data was in. This was done by assuming that the failure count was uniformly distributed over the interval it occured in. For example, data where Failure Observation Number (T), Count of Failures (FC), and total time for T to occur (E) are as follows 
 
 ![image](https://user-images.githubusercontent.com/101438680/229073461-b11e6342-fe04-49f6-8f43-27541235dbf6.png)
 
@@ -64,12 +64,26 @@ The failure data used had to be modified as follows to due to the format the sel
 
 ![image](https://user-images.githubusercontent.com/101438680/229074684-e0d8adff-11b4-4c19-969b-a74e06bdd5a0.png)
 
+And so the provided failure data is broken down in a way that each Failure Observation Number (T) is accounted for with the assumption that all failures happening in that interval are unifromly distibuted.
 
-<h3>3 plots for MTTFmin, twice and half of it for your test data</h3>
+The FIO (Failure Intensity Objective) = Max Number of Errors (16) / Number of Input Events (5 Failure Observations) = 3.2, providing a calculated MTTF for the SUT where MTTF = 1/3.2 = 0.3125
+<h3>3 plot for MTTFmin</h3>
+![image](https://user-images.githubusercontent.com/101438680/229082850-09c53196-80b2-462b-9c24-5776df98c29f.png)
+
+<h3>3 plot for twice of the MTTFmin</h3>
+![image](https://user-images.githubusercontent.com/101438680/229083211-09dc94af-7f44-4dce-a720-df3209491563.png)
+
+
+<h3>3 plots for half of the MTTFmin</h3>
+![image](https://user-images.githubusercontent.com/101438680/229083393-a27f66e4-fec8-449b-b8e8-2af9012d340b.png)
 
 --
 
-<h3>Explain your evaluation and justification of how you decide the MTTFmin</h3>
+<h3>Explain your evaluation and justification of how you decide the MTTFmin</h3>  
+Our MTTF minimum provides the best line of fit out of the three above charts, no pieces of the plot are within the rejection range and while there are many points indicating to continue testing, there are still some that have been accepted. The minimum MTTF for the system is the lowest MTTF value for the system to be considered acceptable. This was determined by experimentally adjusting the Failure Intensity Objective until a minimum, where the plot provided by the RDC just enters the accepted region of the chart, was found. 
+
+Our MTTF if very low becuase the time between each of our tests was very short, and while the first few Failure Observations had only one to two counted failures, the following occurences had significantly larger failure counts that impacted the data.
+
 
 --
 
