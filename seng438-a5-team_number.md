@@ -53,7 +53,7 @@ Advantages of RDC:
  * Allows for estimation of the minimum and average MTTF.
  * Provides a clear visual representation of the required reliability level and whether or not that level is reached. 
  * Can be used to compare the reliability levels of systems. 
-
+-------------------------------------------------------------
 Disadvantages of RDC:
  * Results can be skewed by outliers 
  * Without a significant amount of data the results can be inaccurate 
