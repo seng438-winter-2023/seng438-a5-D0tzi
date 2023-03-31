@@ -56,9 +56,9 @@ When deciding what range of data to analyze, we must consider if the SUT has cha
 
 # How the team work/effort was divided and managed
 
-For this lab, the group decided to all work together on all segments. 
+# How the team work/effort was divided and managed
 
-# 
+For this lab, Jack and Arion mostly focused on using C-SFRAT to analyze data and create charts using the failure data provided. Ben and Brenek mostly used RDC-11 to create graphs with the failure data provided.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
