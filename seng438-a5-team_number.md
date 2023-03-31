@@ -86,9 +86,6 @@ Our MTTF minimum provides the best line of fit out of the three above charts, no
 
 Our MTTF if very low becuase the time between each of our tests was very short, and while the first few Failure Observations had only one to two counted failures, the following occurences had significantly larger failure counts that impacted the data.
 
-
---
-
 <h3>A discussion on the advantages and disadvantages of RDC</h3>
 
 Advantages of RDC:
@@ -105,7 +102,9 @@ Disadvantages of RDC:
 
 # Comparison of Results
 
---
+Part 1 conducts a reliability growth analysis, in which we exam trends on failure data in order to infer how the reliability of the SUT is changing. Developers may use this data in order to adjust their test suites so that they reach a target reliability.
+
+Part 2 involves a reliability demonstration chart, which illistrates the trend of testing time to failure to the developers. The chart will fluctuate as the SUT develops, and is used by developers to compare against their target MTTF; in which they determine whether or not to continue testing, accept the SUT or reject it entirely. 
 
 # Discussion on Similarity and Differences of the Two Techniques
 
