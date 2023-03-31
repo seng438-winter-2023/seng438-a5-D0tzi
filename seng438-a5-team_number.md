@@ -62,6 +62,8 @@ For this lab, the group decided to all work together on all segments.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+A difficulty the group had to overcome during this lab was deciphering exactly what we were supposed to do. The assignment guideline gave less detail than the previous four assignments. Our group overcame this challenge by all working together in order to decipher exactly what we were supposed to do; the group also used external educational resources to better understand the software we were using. A lesson learned by the group in this lab was to make sure we have educated ourselves on the software we are using as the group originally ran into some difficulties attempting to use the software before we fully understood how to actually use it.
+
 # Comments/feedback on the lab itself
 
-The lab was enjoyable and further enhanced our understanding of reliability assessment. 
+Overall our group found this lab to be quite different from the previous four labs. What we actually learned was beneficial to our understanding of course material, however our group initially struggled with the lack of direction provided in the assignment guideline. We feel that further instruction in the assignment guideline would greatly benefit students doing this assignment in the future. 
