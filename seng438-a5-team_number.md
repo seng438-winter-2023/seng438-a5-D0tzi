@@ -65,6 +65,19 @@ Disadvantages of RDC:
 
 # Discussion on Similarity and Differences of the Two Techniques
 
+<h3>Similarities:</h3>
+ * Both techniques are used to evaluate the reliability of a system.
+ * Both techniques require adequate data in order to provide accurate results.
+ * Both techniques identify areas in the system that are lacking in reliability.
+ * Both techniques enable the analyzer to determine if the target level of reliability has been met. 
+
+<h3>Differences:</h3> 
+ * Reliability growth testing is better suited for evaluating possible future performance, while RDC is better suited to evaluate the performance of the software at the current state.
+ * Reliability growth testing is a dynamic testing technique, while RDC is a static technique.
+ * Reliability growth testing is an interactive process, while RDC uses a one-time analysis. 
+ * Reliability growth testing is better for identifying defects, while RDC is better for demonstrating that software has met reliability requirements. 
+
+
 # How the team work/effort was divided and managed
 
 For this lab, Jack and Arion mostly focused on using C-SFRAT to analyze data and create charts using the failure data provided. Ben and Brenek mostly used RDC-11 to create graphs with the failure data provided.
