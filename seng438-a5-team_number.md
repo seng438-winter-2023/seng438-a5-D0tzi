@@ -22,9 +22,19 @@
 <img width="1200" alt="image" src="https://user-images.githubusercontent.com/98235387/228978355-23db8da4-0bea-4161-a1a8-4b74b56e80cb.png">
 
 <h3>Result of model comparison (selecting top two models):</h3>
+
+As seen above, the top two models selected to fit our failure data was the S distribution model and negative binomial 2 distribution model. They tend to fit closer to the shape of our data in the intensity graph as well. You may assume that these two models are similar due to the visually close resemblance they share. However they differ quite a lot, in which the S model is a parametric model that assumes time between failures follows an exponential distribution; whereas the NB2 model is a non-parametric model that assumes the time between failures follows a non-homogenous Poisson process. Further, because the NB2 model has a lower calculated AIC and BIC, the NB2 model is more suitted to this data than the S model
+
 <h3>Result of range analysis (an explanation of which part of data is good for proceeding with the analysis):</h3>
+
+When deciding what range of data to analyze, we must consider if the SUT has changed, or if the data is old. In our case, we have no indication of the SUT or it's version. We cannot presume when the failures occured. However because our data has only 54 failures, we can assume that it is relatively recent failure data as 40-50 failures is often the standard for proper analysis. Therefore we can analyze the data from the first interval to the end. 
+
 <h3>Plots for failure rate and reliability of the SUT for the test data provided:</h3>
+
+
 <h3>A discussion on decision making given a target failure rate:</h3>
+
+
 <h3>A discussion on the advantages and disadvantages of reliability growth analysis:</h3>
 
 
