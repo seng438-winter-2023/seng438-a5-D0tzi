@@ -133,4 +133,4 @@ A difficulty the group had to overcome during this lab was deciphering exactly w
 
 # Comments/feedback on the lab itself
 
-Overall our group found this lab to be quite different from the previous four labs. What we actually learned was beneficial to our understanding of course material, however our group initially struggled with the lack of direction provided in the assignment guideline. We feel that further instruction in the assignment guideline would greatly benefit students doing this assignment in the future. 
+Overall our group found this lab to be quite different from the previous four labs. What we actually learned was beneficial to our understanding of course material, however our group initially struggled with the lack of direction provided in the assignment guideline. We feel that further instruction in the assignment guideline and usable software that works with more current operating systems would greatly benefit students doing this assignment in the future.
