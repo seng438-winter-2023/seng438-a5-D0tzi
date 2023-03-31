@@ -48,6 +48,16 @@ When deciding what range of data to analyze, we must consider if the SUT has cha
 <h3>3 plots for MTTFmin, twice and half of it for your test data</h3>
 <h3>Explain your evaluation and justification of how you decide the MTTFmin</h3>
 <h3>A discussion on the advantages and disadvantages of RDC</h3>
+
+Advantages of RDC:
+ * Allows for estimation of the minimum and average MTTF.
+ * Provides a clear visual representation of the required reliability level and whether or not that level is reached. 
+ * Can be used to compare the reliability levels of systems. 
+Disadvantages of RDC:
+ * Results can be skewed by outliers 
+ * Without a significant amount of data the results can be inaccurate 
+ * Does not account for the fact that the failure rate can change over time. 
+
 # 
 
 # Comparison of Results
