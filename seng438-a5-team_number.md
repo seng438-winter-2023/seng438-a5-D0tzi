@@ -13,8 +13,8 @@
 In assignment 5 we aim to familiarize ourselves with reliability assessment using the reliability assessment techniques of reliability growth testing and developing reliability demonstration charts. This testing will be done using tools such as C-SFRAT and RDC-11. Similar to assignment 4, no one in the group has any previous experience with either of the testing techniques/methods and their associated tools. 
 
 This assignment has the following objectives:
- * Introduce students to reliability growth testing and reliability demonstration charts. 
- * Give students practice with the reliability assessment tools C-SFRAT and RDC-11
+ * Introduce us to reliability growth testing and reliability demonstration charts. 
+ * Give us practice with the reliability assessment tools C-SFRAT and RDC-11
  * Learn to measure the failure rate, MTTF, and overall reliability of the system under test through data analysis. 
 
 The group began the reliability growth testing by first familiarizing our-selves with C-SFRAT and gaining an understanding of how it worked. Once we were familiar with C-SFRAT we used the tool to display time-between-failures, failure intensity and reliability graphs. Once the group moved on to part 2, we used RDC-11 to analyze whether the target failure rate and MTTF had been met. 
@@ -37,9 +37,6 @@ As seen above, the top two models selected to fit our failure data was the S dis
 <h3>Result of range analysis (an explanation of which part of data is good for proceeding with the analysis):</h3>
 
 When deciding what range of data to analyze, we must consider if the SUT has changed, or if the data is old. In our case, we have no indication of the SUT or it's version. We cannot presume when the failures occured. However because our data has only 54 failures, we can assume that it is relatively recent failure data as 40-50 failures is often the standard for proper analysis. Therefore we can analyze the data from the first interval to the end. 
-
-<h3>Plots for failure rate and reliability of the SUT for the test data provided:</h3>
-
 
 <h3>A discussion on decision making given a target failure rate:</h3>
 
