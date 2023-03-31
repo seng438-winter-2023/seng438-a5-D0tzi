@@ -2,12 +2,12 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|  Brenek Spademan  | 30060822 |
-|                 |   |
-|                 |   |
+| Group \#:      |   7  |
+| -------------- | --- |
+|Brenek Spademan               |30060822    |
+|Ben Leggett                |30114359     |
+|Arion Hamel                |30112662     |
+|Jack Rovere                |30085670     |
 
 # Introduction
 
