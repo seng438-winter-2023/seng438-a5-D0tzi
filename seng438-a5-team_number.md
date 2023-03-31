@@ -40,13 +40,23 @@ When deciding what range of data to analyze, we must consider if the SUT has cha
 
 <h3>A discussion on decision making given a target failure rate:</h3>
 
+Target failure rate pertains to a desired or acceptable failure rate for a software system, in which a higher target failure rate implies a higher number of acceptable system failures, and vice versa. Target failure rate influences decision making by setting an expectation among developers to meet this rate. This is accomplished by increasing or decreasing the quantity of testing done on a system. Further, resource allocation and management is also affected as the target failure rate shifts towards more or less required testing. 
 
 <h3>A discussion on the advantages and disadvantages of reliability growth analysis:</h3>
 
+Reliability growth analysis provides a statistic method to analyze the improvement of software reliability against time. It is quantitative, systematic and cost-effective, allowing for timely intervention and improvement while providing objective means of measuring software reliability. It provides insights into deeper questions that a developer might ask, such as: Is the testing of the SUT sufficient? How is our reliability evolving? At what point do we believe our system will reach target reliability? This data is essential for allowing developers to make informed decisions, and improving the reliability of a system over time.
+
+However, in order to properly analyze a system there is a heavy reliance on complex data within a limited scope. The nature of this analysis requires that we have extensive data on software failures and improvements, and that this data is accurate. It also requires specialized knowledge and tools - such as C-SFRAT - that some development teams may lack. Further, RGA fails to incorporate other factors that may contribute to overall software quality. 
 
 # Assessment Using Reliability Demonstration Chart 
 <h3>3 plots for MTTFmin, twice and half of it for your test data</h3>
+
+--
+
 <h3>Explain your evaluation and justification of how you decide the MTTFmin</h3>
+
+--
+
 <h3>A discussion on the advantages and disadvantages of RDC</h3>
 
 Advantages of RDC:
@@ -63,6 +73,8 @@ Disadvantages of RDC:
 
 # Comparison of Results
 
+--
+
 # Discussion on Similarity and Differences of the Two Techniques
 
 Similarities:
@@ -77,10 +89,11 @@ Differences:
  * Reliability growth testing is an interactive process, while RDC uses a one-time analysis. 
  * Reliability growth testing is better for identifying defects, while RDC is better for demonstrating that software has met reliability requirements. 
 
-
 # How the team work/effort was divided and managed
 
-For this lab, Jack and Arion mostly focused on using C-SFRAT to analyze data and create charts using the failure data provided. Ben and Brenek mostly used RDC-11 to create graphs with the failure data provided.
+Jack and Arion focused on using C-SFRAT to analyze data and create charts using the failure data provided. 
+
+Ben and Brenek used RDC-11 to create graphs with the failure data provided.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
