@@ -49,6 +49,22 @@ Reliability growth analysis provides a statistical method to analyze the improve
 However, in order to properly analyze a system there is a heavy reliance on complex data within a limited scope. The nature of this analysis requires that we have extensive data on software failures and improvements, and that this data is accurate. It also requires specialized knowledge and tools - such as C-SFRAT - that some development teams may lack. Further, RGA fails to incorporate other factors that may contribute to overall software quality. 
 
 # Assessment Using Reliability Demonstration Chart 
+
+The RDC-11 EXCEL worksheet and macro was used alongside the provided failure data to create the Reliability Demonstration Charts (RDCs). 
+The provided default risk values were used, and are as follows:
+- Discrimination Ratio (γ) = 2  
+- Developer's Risk (α) = 0.1  
+- User's Risk (β) = 0.1  
+
+The failure data used had to be modified as follows to due to the format the selected failure data was in. This was done by assuming that the failure count was uniformly distributed over the interval it occured in. For example, data where Failure Number (T), Count of Failures (FC), and total time for T to occur (E) are as follows 
+
+![image](https://user-images.githubusercontent.com/101438680/229073461-b11e6342-fe04-49f6-8f43-27541235dbf6.png)
+
+ Would be converted as follows: T=1, there is one failure so it can be assumed that the time between failures is 0.01, T=2 there are two failures so the time between failures are assumed to be at T=1.5 and T=2
+
+![image](https://user-images.githubusercontent.com/101438680/229074684-e0d8adff-11b4-4c19-969b-a74e06bdd5a0.png)
+
+
 <h3>3 plots for MTTFmin, twice and half of it for your test data</h3>
 
 --
