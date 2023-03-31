@@ -68,13 +68,16 @@ And so the provided failure data is broken down in a way that each Failure Obser
 
 The FIO (Failure Intensity Objective) = Max Number of Errors (16) / Number of Input Events (5 Failure Observations) = 3.2, providing a calculated MTTF for the SUT where MTTF = 1/3.2 = 0.3125
 <h3>3 plot for MTTFmin</h3>
+
 ![image](https://user-images.githubusercontent.com/101438680/229082850-09c53196-80b2-462b-9c24-5776df98c29f.png)  
 
 <h3>3 plot for twice of the MTTFmin</h3>
+
 ![image](https://user-images.githubusercontent.com/101438680/229083211-09dc94af-7f44-4dce-a720-df3209491563.png)  
 
 
 <h3>3 plots for half of the MTTFmin</h3>
+
 ![image](https://user-images.githubusercontent.com/101438680/229083393-a27f66e4-fec8-449b-b8e8-2af9012d340b.png)  
 
 --
