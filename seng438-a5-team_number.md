@@ -75,12 +75,9 @@ The FIO (Failure Intensity Objective) = Max Number of Errors (16) / Number of In
 
 ![image](https://user-images.githubusercontent.com/101438680/229083211-09dc94af-7f44-4dce-a720-df3209491563.png)  
 
-
-<h3>Plots for Half of the MTTFmin</h3>
+<h3>Plot for Half of the MTTFmin</h3>
 
 ![image](https://user-images.githubusercontent.com/101438680/229083393-a27f66e4-fec8-449b-b8e8-2af9012d340b.png)  
-
---
 
 <h3>Explain your evaluation and justification of how you decide the MTTFmin</h3>  
 Our MTTF minimum provides the best line of fit out of the three above charts, no pieces of the plot are within the rejection range and while there are many points indicating to continue testing, there are still some that have been accepted. The minimum MTTF for the system is the lowest MTTF value for the system to be considered acceptable. This was determined by experimentally adjusting the Failure Intensity Objective until a minimum, where the plot provided by the RDC just enters the accepted region of the chart, was found. 
